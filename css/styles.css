@@ -15,13 +15,15 @@
   --color-cloud: #f4f4fd;
   --color-navy-blue-modal: #2e2f42;
   --color-grey: #2e2f42;
-  --color-white: #ffffff;
+  --primary-white-color: #ffffff;
   --color-dairy: #fcfcfc;
+  /* buttons color */
 }
 
 body {
   background-color: #e5e5e5;
   font-family: var(--primary-font);
+  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -64,8 +66,9 @@ body {
   font-weight: 400;
   color: var(--secondary-text-color);
 }
-.contacts-item-first :hover,
-.contacts-item-first :focus {
+
+a:hover,
+a:focus {
   color: #404bbf;
 }
 /* section */
@@ -78,8 +81,23 @@ body {
   line-height: 0.93;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
-.hero-btn {
-    ba
+.hero-button {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--primary-white-color);
+  background-color: var(--logo-text-color);
+  box-shadow: rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--primary-white-color);
+  background-color: #404bbf;
+  box-shadow: rgba(0, 0, 0, 0.15);
 }
