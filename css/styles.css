@@ -43,7 +43,6 @@ body {
 }
 .link {
   font-style: normal;
-  color: inherit;
   text-decoration: none;
 }
 /* reset start */
@@ -71,6 +70,7 @@ body {
 
 /* nav */
 .header-nav-link {
+  color: #2e2f42;
   font-family: inherit font-weight 500;
 }
 
@@ -79,10 +79,10 @@ body {
   color: var(--secondary-text-color);
 }
 
-.header-nav-link :hover,
-.header-nav-link :focus,
-.contscts-link :hover,
-.contscts-link :focus {
+a .header-nav-link :hover,
+a .header-nav-link :focus,
+a .contscts-link :hover,
+a .contscts-link :focus {
   color: #404bbf;
 }
 .header-nav-link :active {
