@@ -79,13 +79,13 @@ body {
   color: var(--secondary-text-color);
 }
 
-a .header-nav-link :hover,
-a .header-nav-link :focus,
-a .contscts-link :hover,
-a .contscts-link :focus {
+.header-nav-link:hover,
+.header-nav-link:focus,
+.contscts-link:hover,
+.contscts-link:focus {
   color: #404bbf;
 }
-.header-nav-link :active {
+.header-nav-link:active {
   text-decoration: underline;
   color: #404bbf;
 }
