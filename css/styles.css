@@ -6,6 +6,7 @@
   /* Color back-ground*/
   --primary-bg-color: #e5e5e5;
   --accent-bg-cl: #2e2f42;
+  --secondary-bg-color: #f4f4fd;
   /* Text color */
   --primary-text-color: #2e2f42;
   --secondary-text-color: #434455;
@@ -70,6 +71,7 @@ body {
   overflow: hidden;
 }
 .title {
+  font-family: inherit;
   font-weight: 700;
   font-size: 36px;
   line-height: 0.9;
@@ -105,7 +107,6 @@ body {
   text-decoration: underline;
   color: var(--light-txt-cl);
 }
-
 /* hero section */
 .hero {
   background-color: var(--accent-bg-cl);
@@ -115,39 +116,37 @@ body {
   font-size: 56px;
   line-height: 0.93;
   text-align: center;
+  text-transform: none;
   color: #ffffff;
 }
 .hero .btn {
-  display: flex;
   align-items: center;
   color: var(--primary-btn-text-cl);
   background-color: var(--primary-btn-color);
-  box-shadow: rgba(0, 0, 0, 0.15);
-  cursor: pointer;
-  border-radius: 4px;
 }
 .hero .btn:hover,
 .hero .btn:focus {
   color: var(--primary-btn-text-cl);
   background-color: var(--light-btn-cl);
-  box-shadow: rgba(0, 0, 0, 0.15);
 }
 
 /* Strategy section */
-.strategy-subtitle {
+.subtitle {
   font-weight: 500;
   font-size: 20px;
   line-height: 0.83;
   color: inherit;
 }
-.strategi-subtitle-desc {
+.subtitle-desc {
   font-weight: 400;
   color: var(--secondary-text-color);
 }
-
+/* Tools section */
+.tools {
+}
 /* Team section */
 .team {
-  background: #f4f4fd;
+  background: var(--secondary-bg-color);
 }
 .team-list-item {
   background: #ffffff;
@@ -155,27 +154,13 @@ body {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
 }
-.team-subtitle {
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 0.83;
-  letter-spacing: 0.02em;
-  color: var(--primary-text-color);
-}
-.team-position {
-  font-weight: 400;
-  color: var(--secondary-text-color);
-}
 
 /* footer section */
 .footer {
   position: absolute;
   width: 1440px;
   height: 312px;
-  background-color: var(--secondary-bg-color);
-}
-.section {
+  background-color: var(--accent-bg-cl);
 }
 .fotter-link {
   font-family: var(--secondary-font);
@@ -187,10 +172,9 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  color: var(--logo-text-color);
+  color: var(--accent-txt-cl);
 }
 .studio-world {
-  font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: 0.85;
@@ -203,4 +187,10 @@ body {
   position: absolute;
   font-family: inherit;
   color: #f4f4fd;
+}
+
+/* Filtr btn */
+.filtr .btn {
+  background-color: var(--accent-btn-cl);
+  color: var(--accent-btn-txt-cl);
 }
