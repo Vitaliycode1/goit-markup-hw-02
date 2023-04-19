@@ -4,7 +4,7 @@
   --secondary-font: "Raleway", sans-serif;
 
   /* Color back-ground*/
-  --primary-bg-color: #e5e5e5;
+  --primary-bg-color: #ffffff;
   --accent-bg-cl: #2e2f42;
   --secondary-bg-color: #f4f4fd;
   /* Text color */
@@ -84,7 +84,7 @@ body {
   font-weight: 500;
 }
 /* nav */
-.header-nav-link {
+.header-nav-list. {
   color: var(--primary-text-color);
   font-family: inherit;
   font-weight: 500;
@@ -102,6 +102,9 @@ body {
 }
 .header-nav-link:active {
   text-decoration: underline;
+  color: var(--light-txt-cl);
+}
+.header-nav-link.current {
   color: var(--light-txt-cl);
 }
 /* hero section */
@@ -124,6 +127,10 @@ body {
 .hero .btn:focus {
   color: var(--primary-btn-text-cl);
   background-color: var(--light-btn-cl);
+}
+
+.hero.btn:active {
+  color: var(--light-btn-cl);
 }
 
 /* Strategy section */
