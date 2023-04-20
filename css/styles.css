@@ -98,10 +98,11 @@ body {
   font-family: inherit;
   font-weight: 500;
 }
-
-.contscts-link {
+.header-contacts {
   font-style: normal;
-  color: var(--secondary-text-color);
+}
+.contscts-link {
+  color: var(--primary-text-color);
 }
 
 .header-nav-link:hover,
@@ -179,7 +180,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 0.85;
+  line-height: 1.17;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
@@ -206,7 +207,8 @@ body {
   background-color: var(--accent-btn-cl);
   color: var(--accent-btn-txt-cl);
 }
-.filtr .btn:hover {
+.filtr .btn:hover,
+.filtr.btn:focus {
   background-color: var(--light-btn-cl);
   color: var(--primary-btn-text-cl);
 }
