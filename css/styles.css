@@ -39,7 +39,7 @@ body {
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1, 17;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
@@ -48,13 +48,15 @@ body {
   color: var(--accent-txt-cl);
 }
 .logo-world {
+  text-decoration: none;
+  line-height: 1.17;
   color: var(--secondary-text-color);
 }
 .list {
   list-style: none;
 }
 .link {
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
   font-style: normal;
   text-decoration: none;
 }
@@ -77,7 +79,7 @@ body {
   color: var(--secondary-text-color);
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.07;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
@@ -98,6 +100,7 @@ body {
 }
 
 .contscts-link {
+  font-style: normal;
   color: var(--secondary-text-color);
 }
 
@@ -120,7 +123,7 @@ body {
 }
 .hero .title {
   font-size: 56px;
-  line-height: 0.93;
+  line-height: 1.07;
   text-align: center;
   text-transform: none;
   color: #ffffff;
@@ -144,12 +147,14 @@ body {
   color: inherit;
   font-weight: 500;
   font-size: 20px;
-  line-height: 0.83;
-  color: inherit;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color);
 }
 .subtitle-desc {
   font-weight: 400;
-  color: var(--secondary-text-color);
+  color: var(--primary-text-color);
 }
 /* Team section */
 .team {
