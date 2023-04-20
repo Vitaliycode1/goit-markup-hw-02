@@ -34,7 +34,7 @@ body {
   text-transform: none;
 }
 .logo-link,
-.logo-world.list {
+.logo-world .link {
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 800;
@@ -56,7 +56,6 @@ body {
   list-style: none;
 }
 .link {
-  color: var(--primary-text-color);
   font-style: normal;
   text-decoration: none;
 }
@@ -203,12 +202,16 @@ body {
 }
 
 /* Filtr btn */
-.filtr .btn {
+.filtr.btn {
   background-color: var(--accent-btn-cl);
   color: var(--accent-btn-txt-cl);
 }
-.filtr .btn:hover,
+.filtr.btn:hover,
 .filtr.btn:focus {
+  background-color: var(--light-btn-cl);
+  color: var(--primary-btn-text-cl);
+}
+.filtr.btn:active {
   background-color: var(--light-btn-cl);
   color: var(--primary-btn-text-cl);
 }
