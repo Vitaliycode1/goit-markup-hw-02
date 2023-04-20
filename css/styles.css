@@ -72,6 +72,7 @@ body {
   overflow: hidden;
 }
 .title {
+  font-family: inherit;
   color: inherit;
   font-family: inherit;
   font-weight: 700;
@@ -198,4 +199,8 @@ body {
 .filtr .btn {
   background-color: var(--accent-btn-cl);
   color: var(--accent-btn-txt-cl);
+}
+.filtr .btn:hover {
+  background-color: var(--light-btn-cl);
+  color: var(--primary-btn-text-cl);
 }
