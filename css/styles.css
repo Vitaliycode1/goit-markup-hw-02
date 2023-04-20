@@ -53,6 +53,7 @@ body {
   list-style: none;
 }
 .link {
+  color: inherit;
   font-style: normal;
   text-decoration: none;
 }
@@ -71,6 +72,7 @@ body {
   overflow: hidden;
 }
 .title {
+  color: inherit;
   font-family: inherit;
   font-weight: 700;
   font-size: 36px;
