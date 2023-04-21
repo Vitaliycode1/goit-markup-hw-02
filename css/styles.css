@@ -43,7 +43,7 @@ body {
 }
 
 .logo-link,
-.logo-world .link {
+.logo-world {
   font-family: var(--secondary-font);
   font-style: normal;
   font-weight: 800;
@@ -97,6 +97,7 @@ body {
 
 /* nav */
 .header-nav-list {
+  color: var(--secondary-text-color);
   font-family: inherit;
   font-weight: 500;
 }
@@ -205,16 +206,16 @@ body {
 }
 
 /* Filtr btn */
-.filtr.btn {
+.filtr .btn {
   background-color: var(--accent-btn-cl);
   color: var(--accent-btn-txt-cl);
 }
-.filtr.btn:hover,
-.filtr.btn:focus {
+.filtr .btn:hover,
+.filtr .btn:focus {
   background-color: var(--light-btn-cl);
   color: var(--primary-btn-text-cl);
 }
-.filtr.btn:active {
+.filtr .btn:active {
   background-color: var(--light-btn-cl);
   color: var(--primary-btn-text-cl);
 }
