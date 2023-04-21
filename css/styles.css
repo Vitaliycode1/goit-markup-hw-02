@@ -96,7 +96,7 @@ body {
 }
 
 /* nav */
-.header-nav-list {
+.header-nav-link {
   color: var(--secondary-text-color);
   font-family: inherit;
   font-weight: 500;
