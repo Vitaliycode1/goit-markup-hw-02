@@ -118,9 +118,7 @@ body {
   text-decoration: underline;
   color: var(--light-txt-cl);
 }
-.header-nav-link.current {
-  color: var(--light-txt-cl);
-}
+
 /* hero section */
 .hero {
   background-color: var(--accent-bg-cl);
@@ -142,7 +140,7 @@ body {
   background-color: var(--light-btn-cl);
 }
 
-.hero.btn:active {
+.hero .btn:active {
   color: var(--light-btn-cl);
 }
 
